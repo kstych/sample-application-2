@@ -1,4 +1,3 @@
-require "benchmark/memory"
 
 FOO = []
 class CpucrasherJob < ApplicationJob
