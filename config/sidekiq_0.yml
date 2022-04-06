@@ -2,6 +2,6 @@
 :verbose: true
 :queues:
   - [default, 1]
-:pidfile: ./tmp/sidekiq.pid
-:logfile: ./log/sidekiq.log
+:pidfile: ./tmp/sidekiq_0.pid
+:logfile: ./log/sidekiq_0.log
 :concurrency:  4
