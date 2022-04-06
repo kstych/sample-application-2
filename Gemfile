@@ -58,6 +58,7 @@ gem 'listen', '~> 3.0.5'
 gem 'daemons'
 gem 'delayed_job', '~> 4.1.2'
 gem 'delayed_job_active_record', '~> 4.1.1'
+gem 'nokogiri', '1.8.2'
 
 # Sidekiq
 gem 'sidekiq', '~> 5.0.0'
