@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   mount Sidekiq::Web => '/sidekiq'
 
   get "enqueue-jobs/:jobs", to: "application#enqueue_jobs"
+  get "enqueue-cpucrasherjobs/:jobs", to: "application#enqueue_cpucrasherjobs"
 end
