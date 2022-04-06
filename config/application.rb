@@ -13,5 +13,7 @@ module RailsActivejobExample
     config.active_job.queue_adapter = :sidekiq
     #config.active_job.queue_adapter = :delayed_job
     #config.active_job.queue_adapter = :resque
+    
+    config.web_console.permissions = '0.0.0.0/0'
   end
 end
